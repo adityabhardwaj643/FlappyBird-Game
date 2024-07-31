@@ -14,7 +14,7 @@ class Game:
         self.win = pg.display.set_mode((self.width, self.height))
         pg.display.set_caption("AdityaFlappyBird")
         self.clock = pg.time.Clock()
-        self.move_speed = 250
+        self.move_speed = 251
         self.start_monitoring = False
         self.score = 0  
         self.high_score = 0
